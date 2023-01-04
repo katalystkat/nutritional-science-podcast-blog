@@ -23,18 +23,11 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Welcome to the blog accompanying our Nutritional Science podcast, where we explore the fascinating and current research on nutrition and how it impacts your health and well-being!</p>
-        <br/>
         <p>
           We'll be your guides and colleagues through the confusing world of labels, marketing claims, and scientific jargon, helping YOU make sense of it all in order to make informed decisions for your optimal health. From superfoods to supplements, we'll separate fact from fiction! 
         </p>
-        <br/>
         <p>
           So grab a bowl of greens and let's get started! Together, we'll discover the latest research and expert findings on all things nutrition and learn how to make the best choices for our optimal health! 
-        </p>
-        <br/>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

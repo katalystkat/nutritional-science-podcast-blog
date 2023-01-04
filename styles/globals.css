@@ -25,18 +25,17 @@ img {
   max-width: 100%;
   display: block;
 }
-
+/* 
 h1,
 h2,
-p,
 ul {
   margin: 0;
-}
+} */
 
-ul {
-  padding: 0;
-  list-style: none;
-}
+/* ul { */
+  /* padding: 0; */
+  /* list-style: none; */
+/* } */
 
 button {
   padding: 0.5rem 1rem;
