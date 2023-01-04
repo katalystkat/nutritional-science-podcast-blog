@@ -1,7 +1,7 @@
 # Hello all! This is the github repo for the blog accompanying the [Nutritional Science Podcast](https://www.youtube.com/@katalystkat/streams); 
 
 With this podcast, I aim to do the following-- 
-1. Have ==fun== with friends && guest speakers
+1. Have <mark>fun<mark> with friends && guest speakers
 2. Learn about awesome innovative discoveries in Nutrition 
 3. Leave our audience with some kind of knowledge to encourage informed decisions regarding health & life sustainability. 
 
