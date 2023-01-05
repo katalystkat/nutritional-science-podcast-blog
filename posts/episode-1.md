@@ -16,4 +16,4 @@ Then at the base of this hierarchy, are **expert opinions** and **anectodal evid
 
 It is important to keep in mind that no single study or piece of evidence is ever considered conclusive on its own. Instead, scientific evidence is evaluated as a whole, with the highest level of evidence being given the most weight. By using the hierarchy of scientific proof, we can more accurately evaluate the reliability and strength of scientific claims and make informed decisions based on the best available evidence. 
 
-Join us on episode 1 <add link> with Dr. Simone Bayer in a 3-part series on Scientific Proof and Simone's published work on the kiwi fruits' effects on digestive health! 
+Join us on [episode 1](https://www.youtube.com/watch?v=mhqagKe7qwo&t=2941s) with Dr. Simone Bayer in a 3-part series on Scientific Proof and Simone's published work on the kiwi fruits' effects on digestive health! 
