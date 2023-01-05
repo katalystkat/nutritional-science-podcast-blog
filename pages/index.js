@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Welcome to the blog accompanying our Nutritional Science podcast, where we explore the fascinating and current research on nutrition and how it impacts your health and well-being!</p>
+        <p>Welcome to the blog accompanying our <a href='https://www.youtube.com/@katalystkat/streams'>Nutritional Science podcast</a>, where we explore the fascinating and current research on nutrition and how it impacts your health and well-being!</p>
         <p>
           We'll be your guides and colleagues through the confusing world of labels, marketing claims, and scientific jargon, helping YOU make sense of it all in order to make informed decisions for your optimal health. From superfoods to supplements, we'll separate fact from fiction! 
         </p>
