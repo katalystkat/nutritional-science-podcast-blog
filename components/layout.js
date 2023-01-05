@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Katalyst Kat';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Nutrition Science Podcast with Katalyst Kat';
 
 export default function Layout({ children, home }) {
   return (
