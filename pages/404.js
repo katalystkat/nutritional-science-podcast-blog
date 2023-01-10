@@ -1,4 +1,4 @@
 // pages/404.js
 export default function Custom404() {
-    return <h1>custom 404</h1>;
+    return <h1>custom 404 page</h1>;
   }
