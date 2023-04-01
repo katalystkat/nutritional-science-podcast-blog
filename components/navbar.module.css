@@ -1,0 +1,127 @@
+/* Define the styles for the navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 5rem;
+    background-color: #FAEAE8;
+  }
+  
+  .inactive {
+    display: none;
+  }
+  
+  /* Style the logo */
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .borderCircle {
+    border-radius: 9999px;
+}
+  
+  /* Style the menu list */
+  .nav_menu_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  /* Style the menu items */
+  .nav_menu_item {
+    margin: 0 1rem;
+  }
+  
+  /* Hide the hamburger menu initially */
+  .nav_menu_list_mobile {
+    display: none;
+  }
+  
+  /* Style the hamburger menu icon */
+  .nav_menu_bar {
+    display: none; /* Hide the hamburger menu initially */
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 50px;
+    height: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    position: absolute;
+    right: 2rem;
+    top: 1.75rem;
+  }
+  
+  /* Style the hamburger menu lines */
+  .nav_menu_bar div {
+    width: 100%;
+    height: 0.2rem;
+    background-color: black;
+    transition: all 0.3s ease;
+  }
+  
+  /* Animate the hamburger menu lines when opened */
+  .nav_menu_bar.active div:nth-child(1) {
+    transform: translateY(0.5rem);
+  }
+  
+  .nav_menu_bar.active div:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .nav_menu_bar.active div:nth-child(3) {
+    transform: translateY(-0.5rem);
+  }
+  
+  /* Show the hamburger menu when clicked */
+  .nav_menu_list_mobile.active {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    border-top: 1px solid black;
+    z-index: 10;
+  }
+  
+  /* Add accordion style to mobile menu */
+  .nav_menu_list_mobile.active > div {
+    margin-bottom: 1rem;
+  }
+  
+  /* Hide the desktop menu items and show the hamburger menu on smaller screens */
+  @media screen and (max-width: 767px) {
+    .nav_menu_list {
+      display: none;
+    }
+  
+    .nav_menu_bar {
+      display: flex; /* Show the hamburger menu on smaller screens */
+    }
+  }
+  
+  /* Hide the hamburger menu and show the desktop menu items on larger screens */
+  @media screen and (min-width: 768px) {
+    .nav_menu_list_mobile {
+      display: none;
+    }
+  
+    .nav_menu_bar {
+      display: none; /* Hide the hamburger menu on larger screens */
+    }
+  
+    .nav_menu_list {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .nav_menu_item {
+      margin: 0 1rem;
+    }
+  }
+  
