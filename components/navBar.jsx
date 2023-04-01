@@ -8,7 +8,7 @@ const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "About", href: "/about" },
   { text: "Contact", href: "/contact" },
-  { text: "Shop", href: "/shop" },
+//   { text: "Shop", href: "/shop" },
   { text: "Archive", href: "/archives"}
 ];
 

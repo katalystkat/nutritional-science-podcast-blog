@@ -75,10 +75,7 @@ const MENU_LIST = [
         text: "Contact",
         href: "/contact"
     },
-    {
-        text: "Shop",
-        href: "/shop"
-    },
+    //   { text: "Shop", href: "/shop" },
     {
         text: "Archive",
         href: "/archives"
